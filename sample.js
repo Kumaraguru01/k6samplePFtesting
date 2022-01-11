@@ -6,7 +6,7 @@ export let options = {
   vus: 50,
 }
 
-const url = 'https://www.google.com/'
+const url = 'https://www.google.com/';
 
 export default function() {
   const response = http.get(url)
